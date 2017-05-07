@@ -7,7 +7,7 @@ package auction;
  */
 
 
-import HelloWorld.InterfaceCli;
+import auction.InterfaceCli;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
