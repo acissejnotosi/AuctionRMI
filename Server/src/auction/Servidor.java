@@ -5,6 +5,7 @@
  */
 package auction;
 
+import auctionDatas.Product;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
@@ -37,6 +38,8 @@ public class Servidor {
         referenciaServicoNomes.rebind("Hello World", new ServImpl());
         System.out.println("Server initialize");
     }
+    
+  
     
     
     
