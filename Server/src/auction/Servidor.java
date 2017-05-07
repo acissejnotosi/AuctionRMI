@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package server;
+package auction;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -37,5 +37,7 @@ public class Servidor {
         referenciaServicoNomes.rebind("Hello World", new ServImpl());
         System.out.println("Server initialize");
     }
+    
+    
     
 }
